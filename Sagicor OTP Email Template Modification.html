@@ -42,36 +42,70 @@
                                         <tr>
                                           <td style="font-size:24px; line-height:36px; font-weight:600; color:#323232;"> Verify your email address </td>
                                         </tr>
-                                        <tr>
+                                        <!-- The problem with this is that it creates too much spacing in older versios of Outlook but when it's removed or commented out then it causes the introduction/title and body text to be too close in newer versions of Outlook -->
+                                        <!-- <tr>
                                           <td>&nbsp;</td>
-                                        </tr>
+                                        </tr> -->
+
+
                                         <tr>
-                                          <td style="font-size:16px; line-height:24px;">  
+                                          <td style="font-size:16px; line-height:24px;padding-top:30px;">  
                                             Hi Rachel, <br/> <br/>
                                             Thank you for choosing Sagicor. To complete linking your Sagicor product, please copy and enter the verification code below. Your product will not be linked until you submit this code. <br/> <br/> 
                                             If you did not request to link a Sagicor product, please contact us at infoja@sagicor.com. <br/> <br/>
                                           </td>
                                         </tr>
-                                        <tr>
+                                        <!-- <tr>
                                           <td>&nbsp;</td>
-                                        </tr>
-                                        <tr>    
-                                          <td><strong>Verification Code
-                                            <label style="color: #00A6DE;cursor: pointer;margin-left: 50px;" onclick="copy()">Copy</label>
-                                          </strong>
-                                          </td> 
-                                        </tr>
-                                        <tr>    
-                                          <td style="color: #0085B2;font-size: 32px;font-family: GothamBookMedium;padding-top: 10px;">
-                                            <b id="otp-code" style="background-color: #F6F8F8;padding-left: 10px;letter-spacing: 18px">
-                                              500500
-                                            </b>
-                                          </td> 
+                                        </tr> -->
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td>
+                                              <!--[if mso]>
+                                              <table style="padding-left:20px;" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tr>    
+                                                  <td style="padding-top:10px;padding-bottom:10px;">
+                                                    <strong>Verification Code
+                                                      <span style="color: #00A6DE;cursor: pointer;margin-left: 20px;">Copy</span>
+                                                    </strong>
+                                                  </td> 
+                                                </tr>
+                                                <tr>    
+                                                  <td style="color: #0085B2;font-size: 32px;font-family: GothamBookMedium;padding-bottom:10px;">
+                                                    <b id="otp-code" style="background-color: #F6F8F8;padding-left: 5px;letter-spacing: 10px">
+                                                      500500
+                                                    </b>
+                                                  </td> 
+                                                  <td>&nbsp;</td>
+                                                </tr>
+                                              </table>
+                                              <![endif]-->
+                                              <!--[if !mso]><!-- -->
+                                              <table style="padding-left:20px;color: rgb(81, 82, 82) !important;background-color: white !important;" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tr>    
+                                                  <td style="padding-top:30px;padding-bottom:10px;">
+                                                    <strong>Verification Code
+                                                      <span style="color: #00A6DE;cursor: pointer;margin-left: 50px;">Copy</span>
+                                                    </strong>
+                                                  </td> 
+                                                </tr>
+                                                <tr>    
+                                                  <td style="color: #0085B2;font-size: 32px;font-family: GothamBookMedium;padding-bottom:30px;">
+                                                    <b id="otp-code" style="background-color: #F6F8F8;padding-left: 10px;letter-spacing: 18px">
+                                                      500500
+                                                    </b>
+                                                  </td> 
+                                                  <td>&nbsp;</td>
+                                                </tr>
+                                              </table>
+                                              <!--<![endif]-->
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        
+                                        <!-- <tr>
                                           <td>&nbsp;</td>
-                                        </tr>
-                                        <tr>
-                                          <td>&nbsp;</td>
-                                        </tr>
+                                        </tr> -->
                                       </tbody>
                                     </table>
                                   </div>
